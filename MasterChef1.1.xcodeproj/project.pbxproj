@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865D120A91F7BE50C411BA71 /* Pods_MasterChef1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28556577856587DE60F4DEB /* Pods_MasterChef1_1.framework */; };
+		963174C21DF7B7D30020C2EB /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963174C11DF7B7D30020C2EB /* GroceryViewController.swift */; };
+		963174C81DF7D7970020C2EB /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 963174C71DF7D7970020C2EB /* login.png */; };
+		96372A0D1DF4B1870087CDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A0C1DF4B1870087CDE2 /* AppDelegate.swift */; };
+		96372A251DF4B1870087CDE2 /* MasterChef1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A241DF4B1870087CDE2 /* MasterChef1_1Tests.swift */; };
+		96372A301DF4B1870087CDE2 /* MasterChef1_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A2F1DF4B1870087CDE2 /* MasterChef1_1UITests.swift */; };
+		96372A3E1DF4B2770087CDE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96372A3D1DF4B2770087CDE2 /* GoogleService-Info.plist */; };
+		96372A581DF4B40A0087CDE2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A3F1DF4B40A0087CDE2 /* AddViewController.swift */; };
+		96372A5D1DF4B40A0087CDE2 /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A441DF4B40A0087CDE2 /* CookViewController.swift */; };
+		96372A601DF4B40A0087CDE2 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A471DF4B40A0087CDE2 /* Food.swift */; };
+		96372A641DF4B40A0087CDE2 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A4B1DF4B40A0087CDE2 /* GroceryItem.swift */; };
+		96372A681DF4B40A0087CDE2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A4F1DF4B40A0087CDE2 /* MyCollectionViewCell.swift */; };
+		96372A691DF4B40A0087CDE2 /* RecipiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A501DF4B40A0087CDE2 /* RecipiesCollectionViewCell.swift */; };
+		96372A6B1DF4B40A0087CDE2 /* ScanDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A521DF4B40A0087CDE2 /* ScanDetailViewController.swift */; };
+		96372A6C1DF4B40A0087CDE2 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A531DF4B40A0087CDE2 /* ScanViewController.swift */; };
+		96372A6D1DF4B40A0087CDE2 /* SearchRecipiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A541DF4B40A0087CDE2 /* SearchRecipiesViewController.swift */; };
+		96372A6E1DF4B40A0087CDE2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A551DF4B40A0087CDE2 /* SwiftyJSON.swift */; };
+		96372A701DF4B40A0087CDE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A571DF4B40A0087CDE2 /* ViewController.swift */; };
+		96372A751DF4B46E0087CDE2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96372A731DF4B46E0087CDE2 /* Info.plist */; };
+		96372A771DF4B54C0087CDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96372A761DF4B54C0087CDE2 /* LaunchScreen.storyboard */; };
+		96372A7A1DF4B6050087CDE2 /* MasterChef1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96372A781DF4B6050087CDE2 /* MasterChef1_1.xcdatamodeld */; };
+		96372A8B1DF4B6770087CDE2 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A7E1DF4B6770087CDE2 /* cover.jpg */; };
+		96372A8C1DF4B6770087CDE2 /* dairy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A7F1DF4B6770087CDE2 /* dairy.jpg */; };
+		96372A8E1DF4B6770087CDE2 /* fruits.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A811DF4B6770087CDE2 /* fruits.jpg */; };
+		96372A901DF4B6770087CDE2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 96372A831DF4B6770087CDE2 /* home.png */; };
+		96372A911DF4B6770087CDE2 /* meat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A841DF4B6770087CDE2 /* meat.jpg */; };
+		96372A921DF4B6770087CDE2 /* others.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A851DF4B6770087CDE2 /* others.jpg */; };
+		96372A931DF4B6770087CDE2 /* sauce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A861DF4B6770087CDE2 /* sauce.jpg */; };
+		96372A941DF4B6770087CDE2 /* vegetable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96372A871DF4B6770087CDE2 /* vegetable.jpg */; };
+		96372A971DF4BEA10087CDE2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A961DF4BEA10087CDE2 /* CategoryViewController.swift */; };
+		96372A991DF60FC00087CDE2 /* MyGroceryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96372A981DF60FC00087CDE2 /* MyGroceryCell.swift */; };
+		96372A9D1DF7890C0087CDE2 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 96372A9C1DF7890C0087CDE2 /* add.png */; };
+		96372AAD1DF7B2820087CDE2 /* pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 96372AAC1DF7B2820087CDE2 /* pot.png */; };
+		96372AAF1DF7B28D0087CDE2 /* shopping-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 96372AAE1DF7B28D0087CDE2 /* shopping-basket.png */; };
+		96372AB11DF7B2940087CDE2 /* barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 96372AB01DF7B2940087CDE2 /* barcode.png */; };
+		9693578C1DF7DBD1007E9175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9693578B1DF7DBD1007E9175 /* Assets.xcassets */; };
+		9693578E1DF7E5DA007E9175 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693578D1DF7E5DA007E9175 /* facebook.png */; };
+		969357921DF80AC4007E9175 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969357911DF80AC4007E9175 /* Item.swift */; };
+		969357941DF813E7007E9175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969357931DF813E7007E9175 /* Main.storyboard */; };
+		EF1AA7091DF7915B006D1E5B /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AA7081DF7915B006D1E5B /* StepsViewController.swift */; };
+		EF1AA7121DF7C042006D1E5B /* groceryFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AA7101DF7C042006D1E5B /* groceryFilled.png */; };
+		EF1AA7131DF7C042006D1E5B /* groceryTab.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AA7111DF7C042006D1E5B /* groceryTab.png */; };
+		EF1AA7151DF7C328006D1E5B /* refrigerator-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AA7141DF7C328006D1E5B /* refrigerator-2.png */; };
+		EF1AA7171DF7C494006D1E5B /* fridgeTab.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AA7161DF7C494006D1E5B /* fridgeTab.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96372A211DF4B1870087CDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96372A011DF4B1870087CDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96372A081DF4B1870087CDE2;
+			remoteInfo = MasterChef1.1;
+		};
+		96372A2C1DF4B1870087CDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96372A011DF4B1870087CDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96372A081DF4B1870087CDE2;
+			remoteInfo = MasterChef1.1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C789B89BC007B740193D545 /* Pods-MasterChef1.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterChef1.1.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasterChef1.1/Pods-MasterChef1.1.release.xcconfig"; sourceTree = "<group>"; };
+		848062F8CC88717BFF00C016 /* Pods-MasterChef1.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterChef1.1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasterChef1.1/Pods-MasterChef1.1.debug.xcconfig"; sourceTree = "<group>"; };
+		963174C11DF7B7D30020C2EB /* GroceryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
+		963174C71DF7D7970020C2EB /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		96372A091DF4B1870087CDE2 /* MasterChef1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterChef1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96372A0C1DF4B1870087CDE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96372A201DF4B1870087CDE2 /* MasterChef1.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterChef1.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96372A241DF4B1870087CDE2 /* MasterChef1_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterChef1_1Tests.swift; sourceTree = "<group>"; };
+		96372A261DF4B1870087CDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96372A2B1DF4B1870087CDE2 /* MasterChef1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterChef1.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96372A2F1DF4B1870087CDE2 /* MasterChef1_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterChef1_1UITests.swift; sourceTree = "<group>"; };
+		96372A311DF4B1870087CDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96372A3D1DF4B2770087CDE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96372A3F1DF4B40A0087CDE2 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		96372A441DF4B40A0087CDE2 /* CookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
+		96372A471DF4B40A0087CDE2 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		96372A4B1DF4B40A0087CDE2 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		96372A4F1DF4B40A0087CDE2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		96372A501DF4B40A0087CDE2 /* RecipiesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		96372A521DF4B40A0087CDE2 /* ScanDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanDetailViewController.swift; sourceTree = "<group>"; };
+		96372A531DF4B40A0087CDE2 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		96372A541DF4B40A0087CDE2 /* SearchRecipiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecipiesViewController.swift; sourceTree = "<group>"; };
+		96372A551DF4B40A0087CDE2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		96372A571DF4B40A0087CDE2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96372A731DF4B46E0087CDE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96372A761DF4B54C0087CDE2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96372A791DF4B6050087CDE2 /* MasterChef1_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasterChef1_1.xcdatamodel; sourceTree = "<group>"; };
+		96372A7E1DF4B6770087CDE2 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		96372A7F1DF4B6770087CDE2 /* dairy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dairy.jpg; sourceTree = "<group>"; };
+		96372A811DF4B6770087CDE2 /* fruits.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruits.jpg; sourceTree = "<group>"; };
+		96372A831DF4B6770087CDE2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		96372A841DF4B6770087CDE2 /* meat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat.jpg; sourceTree = "<group>"; };
+		96372A851DF4B6770087CDE2 /* others.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = others.jpg; sourceTree = "<group>"; };
+		96372A861DF4B6770087CDE2 /* sauce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sauce.jpg; sourceTree = "<group>"; };
+		96372A871DF4B6770087CDE2 /* vegetable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable.jpg; sourceTree = "<group>"; };
+		96372A961DF4BEA10087CDE2 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		96372A981DF60FC00087CDE2 /* MyGroceryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGroceryCell.swift; sourceTree = "<group>"; };
+		96372A9C1DF7890C0087CDE2 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		96372AAC1DF7B2820087CDE2 /* pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pot.png; sourceTree = "<group>"; };
+		96372AAE1DF7B28D0087CDE2 /* shopping-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-basket.png"; sourceTree = "<group>"; };
+		96372AB01DF7B2940087CDE2 /* barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode.png; sourceTree = "<group>"; };
+		9693578B1DF7DBD1007E9175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9693578D1DF7E5DA007E9175 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		969357911DF80AC4007E9175 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		969357931DF813E7007E9175 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D28556577856587DE60F4DEB /* Pods_MasterChef1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterChef1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1AA7081DF7915B006D1E5B /* StepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		EF1AA7101DF7C042006D1E5B /* groceryFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groceryFilled.png; sourceTree = "<group>"; };
+		EF1AA7111DF7C042006D1E5B /* groceryTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groceryTab.png; sourceTree = "<group>"; };
+		EF1AA7141DF7C328006D1E5B /* refrigerator-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refrigerator-2.png"; sourceTree = "<group>"; };
+		EF1AA7161DF7C494006D1E5B /* fridgeTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fridgeTab.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96372A061DF4B1870087CDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865D120A91F7BE50C411BA71 /* Pods_MasterChef1_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372A1D1DF4B1870087CDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372A281DF4B1870087CDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057BBB1DF03D79125E1B107D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848062F8CC88717BFF00C016 /* Pods-MasterChef1.1.debug.xcconfig */,
+				7C789B89BC007B740193D545 /* Pods-MasterChef1.1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96372A001DF4B1870087CDE2 = {
+			isa = PBXGroup;
+			children = (
+				96372A0B1DF4B1870087CDE2 /* MasterChef1.1 */,
+				96372A231DF4B1870087CDE2 /* MasterChef1.1Tests */,
+				96372A2E1DF4B1870087CDE2 /* MasterChef1.1UITests */,
+				96372A0A1DF4B1870087CDE2 /* Products */,
+				057BBB1DF03D79125E1B107D /* Pods */,
+				B7E7FEB26356E7BAB6E9BA5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96372A0A1DF4B1870087CDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96372A091DF4B1870087CDE2 /* MasterChef1.1.app */,
+				96372A201DF4B1870087CDE2 /* MasterChef1.1Tests.xctest */,
+				96372A2B1DF4B1870087CDE2 /* MasterChef1.1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96372A0B1DF4B1870087CDE2 /* MasterChef1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				969357931DF813E7007E9175 /* Main.storyboard */,
+				9693578B1DF7DBD1007E9175 /* Assets.xcassets */,
+				96372A781DF4B6050087CDE2 /* MasterChef1_1.xcdatamodeld */,
+				96372A3F1DF4B40A0087CDE2 /* AddViewController.swift */,
+				96372A4B1DF4B40A0087CDE2 /* GroceryItem.swift */,
+				969357911DF80AC4007E9175 /* Item.swift */,
+				96372A981DF60FC00087CDE2 /* MyGroceryCell.swift */,
+				96372A471DF4B40A0087CDE2 /* Food.swift */,
+				96372A961DF4BEA10087CDE2 /* CategoryViewController.swift */,
+				963174C11DF7B7D30020C2EB /* GroceryViewController.swift */,
+				96372A4F1DF4B40A0087CDE2 /* MyCollectionViewCell.swift */,
+				96372A761DF4B54C0087CDE2 /* LaunchScreen.storyboard */,
+				96372A441DF4B40A0087CDE2 /* CookViewController.swift */,
+				96372A541DF4B40A0087CDE2 /* SearchRecipiesViewController.swift */,
+				EF1AA7081DF7915B006D1E5B /* StepsViewController.swift */,
+				96372A501DF4B40A0087CDE2 /* RecipiesCollectionViewCell.swift */,
+				96372A531DF4B40A0087CDE2 /* ScanViewController.swift */,
+				96372A521DF4B40A0087CDE2 /* ScanDetailViewController.swift */,
+				96372A731DF4B46E0087CDE2 /* Info.plist */,
+				96372A951DF4B6A40087CDE2 /* images */,
+				96372A551DF4B40A0087CDE2 /* SwiftyJSON.swift */,
+				96372A571DF4B40A0087CDE2 /* ViewController.swift */,
+				96372A0C1DF4B1870087CDE2 /* AppDelegate.swift */,
+				96372A3D1DF4B2770087CDE2 /* GoogleService-Info.plist */,
+			);
+			path = MasterChef1.1;
+			sourceTree = "<group>";
+		};
+		96372A231DF4B1870087CDE2 /* MasterChef1.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96372A241DF4B1870087CDE2 /* MasterChef1_1Tests.swift */,
+				96372A261DF4B1870087CDE2 /* Info.plist */,
+			);
+			path = MasterChef1.1Tests;
+			sourceTree = "<group>";
+		};
+		96372A2E1DF4B1870087CDE2 /* MasterChef1.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				96372A2F1DF4B1870087CDE2 /* MasterChef1_1UITests.swift */,
+				96372A311DF4B1870087CDE2 /* Info.plist */,
+			);
+			path = MasterChef1.1UITests;
+			sourceTree = "<group>";
+		};
+		96372A951DF4B6A40087CDE2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9693578D1DF7E5DA007E9175 /* facebook.png */,
+				963174C71DF7D7970020C2EB /* login.png */,
+				EF1AA7141DF7C328006D1E5B /* refrigerator-2.png */,
+				EF1AA7101DF7C042006D1E5B /* groceryFilled.png */,
+				EF1AA7111DF7C042006D1E5B /* groceryTab.png */,
+				96372AAC1DF7B2820087CDE2 /* pot.png */,
+				96372A9C1DF7890C0087CDE2 /* add.png */,
+				EF1AA7161DF7C494006D1E5B /* fridgeTab.png */,
+				96372AAE1DF7B28D0087CDE2 /* shopping-basket.png */,
+				96372AB01DF7B2940087CDE2 /* barcode.png */,
+				96372A7E1DF4B6770087CDE2 /* cover.jpg */,
+				96372A7F1DF4B6770087CDE2 /* dairy.jpg */,
+				96372A811DF4B6770087CDE2 /* fruits.jpg */,
+				96372A831DF4B6770087CDE2 /* home.png */,
+				96372A841DF4B6770087CDE2 /* meat.jpg */,
+				96372A851DF4B6770087CDE2 /* others.jpg */,
+				96372A861DF4B6770087CDE2 /* sauce.jpg */,
+				96372A871DF4B6770087CDE2 /* vegetable.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B7E7FEB26356E7BAB6E9BA5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28556577856587DE60F4DEB /* Pods_MasterChef1_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96372A081DF4B1870087CDE2 /* MasterChef1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96372A341DF4B1870087CDE2 /* Build configuration list for PBXNativeTarget "MasterChef1.1" */;
+			buildPhases = (
+				B2601E5E59944B7E3DCAAEF3 /* [CP] Check Pods Manifest.lock */,
+				96372A051DF4B1870087CDE2 /* Sources */,
+				96372A061DF4B1870087CDE2 /* Frameworks */,
+				96372A071DF4B1870087CDE2 /* Resources */,
+				AE8758F46C01A7B37F98AA0F /* [CP] Embed Pods Frameworks */,
+				296158299E095D639B1E8376 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterChef1.1;
+			productName = MasterChef1.1;
+			productReference = 96372A091DF4B1870087CDE2 /* MasterChef1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96372A1F1DF4B1870087CDE2 /* MasterChef1.1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96372A371DF4B1870087CDE2 /* Build configuration list for PBXNativeTarget "MasterChef1.1Tests" */;
+			buildPhases = (
+				96372A1C1DF4B1870087CDE2 /* Sources */,
+				96372A1D1DF4B1870087CDE2 /* Frameworks */,
+				96372A1E1DF4B1870087CDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96372A221DF4B1870087CDE2 /* PBXTargetDependency */,
+			);
+			name = MasterChef1.1Tests;
+			productName = MasterChef1.1Tests;
+			productReference = 96372A201DF4B1870087CDE2 /* MasterChef1.1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96372A2A1DF4B1870087CDE2 /* MasterChef1.1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96372A3A1DF4B1870087CDE2 /* Build configuration list for PBXNativeTarget "MasterChef1.1UITests" */;
+			buildPhases = (
+				96372A271DF4B1870087CDE2 /* Sources */,
+				96372A281DF4B1870087CDE2 /* Frameworks */,
+				96372A291DF4B1870087CDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96372A2D1DF4B1870087CDE2 /* PBXTargetDependency */,
+			);
+			name = MasterChef1.1UITests;
+			productName = MasterChef1.1UITests;
+			productReference = 96372A2B1DF4B1870087CDE2 /* MasterChef1.1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96372A011DF4B1870087CDE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "yejing zhou";
+				TargetAttributes = {
+					96372A081DF4B1870087CDE2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9RFFHV42RU;
+						ProvisioningStyle = Automatic;
+					};
+					96372A1F1DF4B1870087CDE2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9RFFHV42RU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96372A081DF4B1870087CDE2;
+					};
+					96372A2A1DF4B1870087CDE2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9RFFHV42RU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96372A081DF4B1870087CDE2;
+					};
+				};
+			};
+			buildConfigurationList = 96372A041DF4B1870087CDE2 /* Build configuration list for PBXProject "MasterChef1.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96372A001DF4B1870087CDE2;
+			productRefGroup = 96372A0A1DF4B1870087CDE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96372A081DF4B1870087CDE2 /* MasterChef1.1 */,
+				96372A1F1DF4B1870087CDE2 /* MasterChef1.1Tests */,
+				96372A2A1DF4B1870087CDE2 /* MasterChef1.1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96372A071DF4B1870087CDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1AA7121DF7C042006D1E5B /* groceryFilled.png in Resources */,
+				96372A9D1DF7890C0087CDE2 /* add.png in Resources */,
+				96372A911DF4B6770087CDE2 /* meat.jpg in Resources */,
+				96372AAF1DF7B28D0087CDE2 /* shopping-basket.png in Resources */,
+				96372A8B1DF4B6770087CDE2 /* cover.jpg in Resources */,
+				96372A901DF4B6770087CDE2 /* home.png in Resources */,
+				EF1AA7131DF7C042006D1E5B /* groceryTab.png in Resources */,
+				96372AB11DF7B2940087CDE2 /* barcode.png in Resources */,
+				96372A931DF4B6770087CDE2 /* sauce.jpg in Resources */,
+				96372A3E1DF4B2770087CDE2 /* GoogleService-Info.plist in Resources */,
+				96372A941DF4B6770087CDE2 /* vegetable.jpg in Resources */,
+				963174C81DF7D7970020C2EB /* login.png in Resources */,
+				969357941DF813E7007E9175 /* Main.storyboard in Resources */,
+				96372AAD1DF7B2820087CDE2 /* pot.png in Resources */,
+				96372A751DF4B46E0087CDE2 /* Info.plist in Resources */,
+				EF1AA7171DF7C494006D1E5B /* fridgeTab.png in Resources */,
+				9693578E1DF7E5DA007E9175 /* facebook.png in Resources */,
+				EF1AA7151DF7C328006D1E5B /* refrigerator-2.png in Resources */,
+				96372A8C1DF4B6770087CDE2 /* dairy.jpg in Resources */,
+				96372A771DF4B54C0087CDE2 /* LaunchScreen.storyboard in Resources */,
+				96372A8E1DF4B6770087CDE2 /* fruits.jpg in Resources */,
+				96372A921DF4B6770087CDE2 /* others.jpg in Resources */,
+				9693578C1DF7DBD1007E9175 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372A1E1DF4B1870087CDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372A291DF4B1870087CDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		296158299E095D639B1E8376 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterChef1.1/Pods-MasterChef1.1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8758F46C01A7B37F98AA0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterChef1.1/Pods-MasterChef1.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2601E5E59944B7E3DCAAEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96372A051DF4B1870087CDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96372A6B1DF4B40A0087CDE2 /* ScanDetailViewController.swift in Sources */,
+				96372A681DF4B40A0087CDE2 /* MyCollectionViewCell.swift in Sources */,
+				EF1AA7091DF7915B006D1E5B /* StepsViewController.swift in Sources */,
+				96372A971DF4BEA10087CDE2 /* CategoryViewController.swift in Sources */,
+				96372A7A1DF4B6050087CDE2 /* MasterChef1_1.xcdatamodeld in Sources */,
+				96372A6E1DF4B40A0087CDE2 /* SwiftyJSON.swift in Sources */,
+				96372A0D1DF4B1870087CDE2 /* AppDelegate.swift in Sources */,
+				96372A991DF60FC00087CDE2 /* MyGroceryCell.swift in Sources */,
+				96372A601DF4B40A0087CDE2 /* Food.swift in Sources */,
+				963174C21DF7B7D30020C2EB /* GroceryViewController.swift in Sources */,
+				969357921DF80AC4007E9175 /* Item.swift in Sources */,
+				96372A691DF4B40A0087CDE2 /* RecipiesCollectionViewCell.swift in Sources */,
+				96372A5D1DF4B40A0087CDE2 /* CookViewController.swift in Sources */,
+				96372A701DF4B40A0087CDE2 /* ViewController.swift in Sources */,
+				96372A6D1DF4B40A0087CDE2 /* SearchRecipiesViewController.swift in Sources */,
+				96372A6C1DF4B40A0087CDE2 /* ScanViewController.swift in Sources */,
+				96372A641DF4B40A0087CDE2 /* GroceryItem.swift in Sources */,
+				96372A581DF4B40A0087CDE2 /* AddViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372A1C1DF4B1870087CDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96372A251DF4B1870087CDE2 /* MasterChef1_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372A271DF4B1870087CDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96372A301DF4B1870087CDE2 /* MasterChef1_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96372A221DF4B1870087CDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96372A081DF4B1870087CDE2 /* MasterChef1.1 */;
+			targetProxy = 96372A211DF4B1870087CDE2 /* PBXContainerItemProxy */;
+		};
+		96372A2D1DF4B1870087CDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96372A081DF4B1870087CDE2 /* MasterChef1.1 */;
+			targetProxy = 96372A2C1DF4B1870087CDE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96372A321DF4B1870087CDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96372A331DF4B1870087CDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96372A351DF4B1870087CDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848062F8CC88717BFF00C016 /* Pods-MasterChef1.1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RFFHV42RU;
+				INFOPLIST_FILE = MasterChef1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yejingzhou.MasterChef1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96372A361DF4B1870087CDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C789B89BC007B740193D545 /* Pods-MasterChef1.1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RFFHV42RU;
+				INFOPLIST_FILE = MasterChef1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yejingzhou.MasterChef1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96372A381DF4B1870087CDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RFFHV42RU;
+				INFOPLIST_FILE = MasterChef1.1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yejingzhou.MasterChef1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasterChef1.1.app/MasterChef1.1";
+			};
+			name = Debug;
+		};
+		96372A391DF4B1870087CDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RFFHV42RU;
+				INFOPLIST_FILE = MasterChef1.1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yejingzhou.MasterChef1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasterChef1.1.app/MasterChef1.1";
+			};
+			name = Release;
+		};
+		96372A3B1DF4B1870087CDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9RFFHV42RU;
+				INFOPLIST_FILE = MasterChef1.1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yejingzhou.MasterChef1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MasterChef1.1;
+			};
+			name = Debug;
+		};
+		96372A3C1DF4B1870087CDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9RFFHV42RU;
+				INFOPLIST_FILE = MasterChef1.1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yejingzhou.MasterChef1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MasterChef1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96372A041DF4B1870087CDE2 /* Build configuration list for PBXProject "MasterChef1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96372A321DF4B1870087CDE2 /* Debug */,
+				96372A331DF4B1870087CDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96372A341DF4B1870087CDE2 /* Build configuration list for PBXNativeTarget "MasterChef1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96372A351DF4B1870087CDE2 /* Debug */,
+				96372A361DF4B1870087CDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96372A371DF4B1870087CDE2 /* Build configuration list for PBXNativeTarget "MasterChef1.1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96372A381DF4B1870087CDE2 /* Debug */,
+				96372A391DF4B1870087CDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96372A3A1DF4B1870087CDE2 /* Build configuration list for PBXNativeTarget "MasterChef1.1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96372A3B1DF4B1870087CDE2 /* Debug */,
+				96372A3C1DF4B1870087CDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96372A781DF4B6050087CDE2 /* MasterChef1_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96372A791DF4B6050087CDE2 /* MasterChef1_1.xcdatamodel */,
+			);
+			currentVersion = 96372A791DF4B6050087CDE2 /* MasterChef1_1.xcdatamodel */;
+			path = MasterChef1_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96372A011DF4B1870087CDE2 /* Project object */;
+}
