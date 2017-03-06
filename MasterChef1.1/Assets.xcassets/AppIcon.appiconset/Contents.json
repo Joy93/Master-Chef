@@ -3,67 +3,67 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "chef40.png",
+      "filename" : "logo20-1-1.png",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "chefiCON.png",
+      "filename" : "logo20-2.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "chef29.png",
+      "filename" : "logo29-3.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "chef58.png",
+      "filename" : "logo29-1-2.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "chef87.png",
+      "filename" : "logo29-1.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "chef80.png",
+      "filename" : "logo40-2.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "chef120-1.png",
+      "filename" : "logo40-1.png",
       "scale" : "3x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "chef57.png",
+      "filename" : "logo57-2.png",
       "scale" : "1x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "chef114.png",
+      "filename" : "logo57-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "chef120.png",
+      "filename" : "logo60-1-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "chef180.png",
+      "filename" : "logo60-2.png",
       "scale" : "3x"
     }
   ],
